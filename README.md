@@ -61,3 +61,20 @@ analysis workflow to preserve data lineage and reproducibility.
 - Analyze how geographic concentration evolves over time
 - Compare concentration across different payment instruments
 - Assess potential diversification scenarios and their impact on risk exposure
+
+ ## How to Run
+
+1. Clone the repository
+```bash
+   git clone https://github.com/TU_USUARIO/geographic-trx-concentration.git
+   cd geographic-trx-concentration
+```
+
+2. Install dependencies
+```bash
+   pip install -r requirements.txt
+```
+
+3. Launch Jupyter and open the notebook
+```bash
+   jupyter notebook notebooks/01_geographic_concentration_analysis.ipynb
