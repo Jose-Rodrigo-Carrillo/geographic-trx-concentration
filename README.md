@@ -14,7 +14,6 @@ operational, and market risks derived from high geographic concentration.
 ## Business Questions
 - Which countries generate the majority of payment transactions?
 - Is transaction activity overly concentrated in a small number of markets?
-- How strong is the long tail of lower-volume countries?
 - What are the potential risks associated with this level of concentration?
 
 ## Data Source
@@ -25,11 +24,7 @@ The dataset was downloaded directly from the ECB Data Portal and stored locally
 as a CSV file to ensure stability, transparency, and full reproducibility
 of the analysis.
 
-Key characteristics of the dataset include:
-- Country-level data
-- Number of payment transactions
-- Payment instruments (aggregated)
-- Periodic observations
+
 
 ## Dataset Handling
 Raw data is stored without modification in the `data/raw/` directory.
@@ -49,8 +44,7 @@ analysis workflow to preserve data lineage and reproducibility.
 - A small group of markets accounts for a disproportionate share of total transactions.
 - The distribution exhibits a strong concentration pattern, increasing exposure
   to country-specific economic and regulatory risks.
-- Lower-volume countries form a long tail with limited individual impact but
-  potential diversification value.
+
 
 ## Tools Used
 - Python (pandas, numpy)
