@@ -12,9 +12,12 @@ activity is distributed geographically and to highlight potential strategic,
 operational, and market risks derived from high geographic concentration.
 
 ## Business Questions
+
 - Which countries generate the majority of payment transactions?
 - Is transaction activity overly concentrated in a small number of markets?
 - What are the potential risks associated with this level of concentration?
+- How does transaction concentration evolve over time for the most relevant countries
+
 
 ## Data Source
 The data used in this analysis comes from the **European Central Bank (ECB) –
@@ -38,6 +41,7 @@ analysis workflow to preserve data lineage and reproducibility.
 4. Calculation of country-level transaction shares
 5. Analysis of cumulative concentration (Pareto-style analysis)
 6. Visualization of geographic concentration patterns
+7. Trend analysis of transaction volumes over time for the top contributing countries
 
 ## Key Insights
 - Transaction activity is highly concentrated in a limited number of countries.
@@ -45,16 +49,21 @@ analysis workflow to preserve data lineage and reproducibility.
 - The distribution exhibits a strong concentration pattern, increasing exposure
   to country-specific economic and regulatory risks.
 
+- Trend analysis shows how transaction volumes for top countries evolve over time,
+  helping identify structural changes, growth patterns, and emerging concentration risks
+
 
 ## Tools Used
 - Python (pandas, numpy)
 - Matplotlib / Seaborn
 - Jupyter Notebook
 
+
 ## Next Steps
-- Analyze how geographic concentration evolves over time
-- Compare concentration across different payment instruments
+- Extend temporal analysis to include year-over-year growth rates
+- Compare geographic concentration across different payment instruments
 - Assess potential diversification scenarios and their impact on risk exposure
+
 
  ## How to Run
 
